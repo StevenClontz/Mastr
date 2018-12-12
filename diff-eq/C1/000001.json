@@ -1,0 +1,1 @@
+{"_seed": 1, "non_hom": "-9 \\, \\cos\\left(-3 \\, t\\right) e^{\\left(5 \\, t\\right)}", "y_coeff": "-5", "solution": "y= k e^{\\left(5 \\, t\\right)} + 3 \\, e^{\\left(5 \\, t\\right)} \\sin\\left(-3 \\, t\\right)"}
