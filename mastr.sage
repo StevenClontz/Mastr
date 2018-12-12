@@ -33,7 +33,7 @@ class MastrExercise:
 load(exercise_path+".sage")
 exercise = eval(exercise_name)
 
-seeds = [1234,123,12345,12,1]# sample(xrange(1000000),5)
+seeds = xrange(1,101)
 
 for seed in seeds:
   set_random_seed(seed)

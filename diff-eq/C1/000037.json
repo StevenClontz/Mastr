@@ -1,0 +1,1 @@
+{"_seed": 37, "non_hom": "10 \\, \\cos\\left(-5 \\, t\\right) e^{\\left(4 \\, t\\right)}", "y_coeff": "-4", "solution": "y= k e^{\\left(4 \\, t\\right)} - 2 \\, e^{\\left(4 \\, t\\right)} \\sin\\left(-5 \\, t\\right)"}

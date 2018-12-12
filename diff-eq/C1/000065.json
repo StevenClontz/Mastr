@@ -1,0 +1,1 @@
+{"_seed": 65, "non_hom": "9 \\, e^{\\left(-4 \\, t\\right)} \\sin\\left(-3 \\, t\\right)", "y_coeff": "+4", "solution": "y= k e^{\\left(-4 \\, t\\right)} + 3 \\, \\cos\\left(-3 \\, t\\right) e^{\\left(-4 \\, t\\right)}"}

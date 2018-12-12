@@ -1,0 +1,1 @@
+{"_seed": 92, "non_hom": "-3 \\, \\cos\\left(-t\\right) e^{t}", "y_coeff": "-1", "solution": "y= k e^{t} + 3 \\, e^{t} \\sin\\left(-t\\right)"}

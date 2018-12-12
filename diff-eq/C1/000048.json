@@ -1,0 +1,1 @@
+{"_seed": 48, "non_hom": "8 \\, \\cos\\left(4 \\, t\\right) e^{t}", "y_coeff": "-1", "solution": "y= k e^{t} + 2 \\, e^{t} \\sin\\left(4 \\, t\\right)"}
