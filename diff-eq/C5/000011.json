@@ -1,0 +1,1 @@
+{"_seed": 11, "ode": "y''+4y'+3y = 2 \\, e^{\\left(-2 \\, t\\right)}", "solution": "y= k_{2} e^{\\left(-t\\right)} + k_{1} e^{\\left(-3 \\, t\\right)} - 2 \\, e^{\\left(-2 \\, t\\right)}"}

@@ -1,0 +1,1 @@
+{"_seed": 94, "ode": "y''+y'-12y = 24 \\, e^{\\left(2 \\, t\\right)}", "solution": "y= k_{2} e^{\\left(3 \\, t\\right)} + k_{1} e^{\\left(-4 \\, t\\right)} - 4 \\, e^{\\left(2 \\, t\\right)}"}

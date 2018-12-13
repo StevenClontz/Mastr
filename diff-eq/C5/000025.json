@@ -1,0 +1,1 @@
+{"_seed": 25, "ode": "y''-8y'+15y = -6 \\, e^{\\left(2 \\, t\\right)}", "solution": "y= k_{2} e^{\\left(5 \\, t\\right)} + k_{1} e^{\\left(3 \\, t\\right)} - 2 \\, e^{\\left(2 \\, t\\right)}"}

@@ -1,0 +1,1 @@
+{"_seed": 78, "ivp": "y''+2y'-8y = 0 \\hspace{1em} y(0) = 4 , y'(0) = -22", "solution": "y= -e^{\\left(2 \\, t\\right)} + 5 \\, e^{\\left(-4 \\, t\\right)}"}

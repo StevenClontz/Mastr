@@ -1,0 +1,1 @@
+{"_seed": 77, "ode": "y''-1y'-20y = 70 \\, e^{\\left(-2 \\, t\\right)}", "solution": "y= k_{1} e^{\\left(5 \\, t\\right)} + k_{2} e^{\\left(-4 \\, t\\right)} - 5 \\, e^{\\left(-2 \\, t\\right)}"}

@@ -1,0 +1,1 @@
+{"_seed": 92, "ivp": "y''+0y'-1y = 0 \\hspace{1em} y(0) = 1 , y'(0) = 9", "solution": "y= -4 \\, e^{\\left(-t\\right)} + 5 \\, e^{t}"}

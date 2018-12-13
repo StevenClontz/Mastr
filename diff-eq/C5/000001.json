@@ -1,0 +1,1 @@
+{"_seed": 1, "ode": "y''-2y'-15y = 12 \\, e^{\\left(-t\\right)}", "solution": "y= k_{1} e^{\\left(5 \\, t\\right)} + k_{2} e^{\\left(-3 \\, t\\right)} - e^{\\left(-t\\right)}"}

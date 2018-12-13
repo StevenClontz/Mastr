@@ -1,0 +1,1 @@
+{"_seed": 56, "ivp": "y''-1y'-12y = 0 \\hspace{1em} y(0) = -4 , y'(0) = -23", "solution": "y= -5 \\, e^{\\left(4 \\, t\\right)} + e^{\\left(-3 \\, t\\right)}"}

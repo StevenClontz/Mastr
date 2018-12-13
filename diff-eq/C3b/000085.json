@@ -1,0 +1,1 @@
+{"_seed": 85, "ode": "y''+4y'+20y = 0", "complex_solution": "y= c_{1} e^{\\left(\\left(4 i - 2\\right) \\, t\\right)} + c_{2} e^{\\left(-\\left(4 i + 2\\right) \\, t\\right)}", "solution": "y= {\\left(k_{1} \\cos\\left(4 \\, t\\right) + k_{2} \\sin\\left(4 \\, t\\right)\\right)} e^{\\left(-2 \\, t\\right)}"}

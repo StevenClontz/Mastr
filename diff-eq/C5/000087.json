@@ -1,0 +1,1 @@
+{"_seed": 87, "ode": "y''-7y'+12y = 216 \\, e^{\\left(-5 \\, t\\right)}", "solution": "y= k_{2} e^{\\left(4 \\, t\\right)} + k_{1} e^{\\left(3 \\, t\\right)} + 3 \\, e^{\\left(-5 \\, t\\right)}"}

@@ -1,0 +1,1 @@
+{"_seed": 41, "ivp": "y''+3y'-10y = 0 \\hspace{1em} y(0) = 4 , y'(0) = -6", "solution": "y= 2 \\, e^{\\left(2 \\, t\\right)} + 2 \\, e^{\\left(-5 \\, t\\right)}"}

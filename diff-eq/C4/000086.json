@@ -1,0 +1,1 @@
+{"_seed": 86, "ivp": "y''+0y'-4y = 0 \\hspace{1em} y(0) = 7 , y'(0) = -2", "solution": "y= 3 \\, e^{\\left(2 \\, t\\right)} + 4 \\, e^{\\left(-2 \\, t\\right)}"}

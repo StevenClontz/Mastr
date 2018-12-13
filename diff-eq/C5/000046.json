@@ -1,0 +1,1 @@
+{"_seed": 46, "ode": "y''+y'-6y = 14 \\, e^{\\left(-5 \\, t\\right)}", "solution": "y= k_{1} e^{\\left(2 \\, t\\right)} + k_{2} e^{\\left(-3 \\, t\\right)} + e^{\\left(-5 \\, t\\right)}"}

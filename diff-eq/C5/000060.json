@@ -1,0 +1,1 @@
+{"_seed": 60, "ode": "y''+3y'+2y = -60 \\, e^{\\left(3 \\, t\\right)}", "solution": "y= k_{2} e^{\\left(-t\\right)} + k_{1} e^{\\left(-2 \\, t\\right)} - 3 \\, e^{\\left(3 \\, t\\right)}"}

@@ -1,0 +1,1 @@
+{"_seed": 49, "ode": "y''+5y'+6y = -48 \\, e^{t}", "solution": "y= k_{2} e^{\\left(-2 \\, t\\right)} + k_{1} e^{\\left(-3 \\, t\\right)} - 4 \\, e^{t}"}

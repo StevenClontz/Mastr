@@ -1,0 +1,1 @@
+{"_seed": 96, "ode": "y''-7y'+12y = -24 \\, e^{t}", "solution": "y= k_{1} e^{\\left(4 \\, t\\right)} + k_{2} e^{\\left(3 \\, t\\right)} - 4 \\, e^{t}"}

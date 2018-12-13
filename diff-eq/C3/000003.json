@@ -1,0 +1,1 @@
+{"_seed": 3, "ode": "y''-6y'+9y = 0", "solution": "y= k_{1} t e^{\\left(3 \\, t\\right)} + k_{2} e^{\\left(3 \\, t\\right)}"}

@@ -1,0 +1,1 @@
+{"_seed": 7, "ivp": "y''+16y = 0 \\hspace{1em} y(0) = 5 , y'(0) = 16", "solution": "y= 5 \\, \\cos\\left(4 \\, t\\right) + 4 \\, \\sin\\left(4 \\, t\\right)"}

@@ -1,0 +1,1 @@
+{"_seed": 65, "ode": "y''+8y'+16y = 0", "solution": "y= k_{1} t e^{\\left(-4 \\, t\\right)} + k_{2} e^{\\left(-4 \\, t\\right)}"}

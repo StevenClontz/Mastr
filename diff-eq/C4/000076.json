@@ -1,0 +1,1 @@
+{"_seed": 76, "ivp": "y''-9y'+20y = 0 \\hspace{1em} y(0) = 7 , y'(0) = 30", "solution": "y= 2 \\, e^{\\left(5 \\, t\\right)} + 5 \\, e^{\\left(4 \\, t\\right)}"}

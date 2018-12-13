@@ -1,0 +1,1 @@
+{"_seed": 42, "ode": "y''-6y'+8y = -24 \\, e^{\\left(-2 \\, t\\right)}", "solution": "y= k_{2} e^{\\left(4 \\, t\\right)} + k_{1} e^{\\left(2 \\, t\\right)} - e^{\\left(-2 \\, t\\right)}"}

@@ -1,0 +1,1 @@
+{"_seed": 20, "ode": "y''+2y'-15y = -21 \\, e^{\\left(2 \\, t\\right)}", "solution": "y= k_{1} e^{\\left(3 \\, t\\right)} + k_{2} e^{\\left(-5 \\, t\\right)} + 3 \\, e^{\\left(2 \\, t\\right)}"}

@@ -1,0 +1,1 @@
+{"_seed": 72, "ode": "y''+0y'-16y = 14 \\, e^{\\left(-3 \\, t\\right)}", "solution": "y= k_{1} e^{\\left(4 \\, t\\right)} + k_{2} e^{\\left(-4 \\, t\\right)} - 2 \\, e^{\\left(-3 \\, t\\right)}"}

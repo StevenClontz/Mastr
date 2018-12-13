@@ -1,0 +1,1 @@
+{"_seed": 34, "ivp": "y''+9y = 0 \\hspace{1em} y(0) = -1 , y'(0) = -15", "solution": "y= -\\cos\\left(3 \\, t\\right) - 5 \\, \\sin\\left(3 \\, t\\right)"}

@@ -1,0 +1,1 @@
+{"_seed": 61, "ode": "y''-3y'+2y = 12 \\, e^{\\left(4 \\, t\\right)}", "solution": "y= k_{2} e^{\\left(2 \\, t\\right)} + k_{1} e^{t} + 2 \\, e^{\\left(4 \\, t\\right)}"}

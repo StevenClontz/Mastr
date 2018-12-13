@@ -1,0 +1,1 @@
+{"_seed": 19, "ivp": "y''+9y = 0 \\hspace{1em} y(0) = 0 , y'(0) = 15", "solution": "y= 5 \\, \\sin\\left(3 \\, t\\right)"}

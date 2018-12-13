@@ -1,0 +1,1 @@
+{"_seed": 67, "ode": "y''+0y'-25y = 18 \\, e^{\\left(4 \\, t\\right)}", "solution": "y= k_{1} e^{\\left(5 \\, t\\right)} + k_{2} e^{\\left(-5 \\, t\\right)} - 2 \\, e^{\\left(4 \\, t\\right)}"}

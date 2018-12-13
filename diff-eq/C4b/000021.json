@@ -1,0 +1,1 @@
+{"_seed": 21, "ivp": "y''+4y = 0 \\hspace{1em} y(0) = 1 , y'(0) = 0", "solution": "y= \\cos\\left(2 \\, t\\right)"}

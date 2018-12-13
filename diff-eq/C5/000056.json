@@ -1,0 +1,1 @@
+{"_seed": 56, "ode": "y''-1y'-12y = 10 \\, e^{\\left(2 \\, t\\right)}", "solution": "y= k_{2} e^{\\left(4 \\, t\\right)} + k_{1} e^{\\left(-3 \\, t\\right)} - e^{\\left(2 \\, t\\right)}"}

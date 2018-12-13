@@ -1,0 +1,1 @@
+{"_seed": 41, "ode": "y''+3y'-10y = 32 \\, e^{\\left(3 \\, t\\right)}", "solution": "y= k_{1} e^{\\left(2 \\, t\\right)} + k_{2} e^{\\left(-5 \\, t\\right)} + 4 \\, e^{\\left(3 \\, t\\right)}"}

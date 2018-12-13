@@ -1,0 +1,1 @@
+{"_seed": 93, "ode": "y''+3y'-4y = 28 \\, e^{\\left(3 \\, t\\right)}", "solution": "y= k_{2} e^{\\left(-4 \\, t\\right)} + k_{1} e^{t} + 2 \\, e^{\\left(3 \\, t\\right)}"}

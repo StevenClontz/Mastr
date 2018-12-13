@@ -1,0 +1,1 @@
+{"_seed": 95, "ivp": "y''+2y'-8y = 0 \\hspace{1em} y(0) = 0 , y'(0) = -18", "solution": "y= -3 \\, e^{\\left(2 \\, t\\right)} + 3 \\, e^{\\left(-4 \\, t\\right)}"}

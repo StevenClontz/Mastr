@@ -1,0 +1,1 @@
+{"_seed": 98, "ode": "y''+6y'+8y = -35 \\, e^{\\left(3 \\, t\\right)}", "solution": "y= k_{1} e^{\\left(-2 \\, t\\right)} + k_{2} e^{\\left(-4 \\, t\\right)} - e^{\\left(3 \\, t\\right)}"}

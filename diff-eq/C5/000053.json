@@ -1,0 +1,1 @@
+{"_seed": 53, "ode": "y''+y'-20y = -32 \\, e^{\\left(-4 \\, t\\right)}", "solution": "y= k_{1} e^{\\left(4 \\, t\\right)} + k_{2} e^{\\left(-5 \\, t\\right)} + 4 \\, e^{\\left(-4 \\, t\\right)}"}
