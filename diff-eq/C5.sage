@@ -1,4 +1,6 @@
 class C5(MastrExercise):
+  def title(self):
+    return "C5 - Non-homogeneous second-order linear ODEs"
   def generate(self):
     t = var("t")
     
@@ -13,7 +15,7 @@ class C5(MastrExercise):
       c = randrange(1,6)*choice([-1,1])
     d = randrange(1,6)*choice([-1,1])
     ypart = choice([
-      d*exp(c*t)  
+      d*exp(c*t)
     ])
     k1 = var("k_1")
     k2 = var("k_2")
@@ -27,6 +29,6 @@ class C5(MastrExercise):
         display_coeff(a*b) +
         "y = " +
         latex(ypart.diff().diff()+(-a-b)*ypart.diff()+a*b*ypart),
-      "solution":
+      "ode_sol":
         "y="+latex(y+ypart)
     }

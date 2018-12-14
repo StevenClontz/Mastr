@@ -1,1 +1,0 @@
-{"_seed": 27, "ode": "y''+4y'-5y = 32 \\, e^{\\left(-t\\right)}", "solution": "y= k_{2} e^{\\left(-5 \\, t\\right)} + k_{1} e^{t} - 4 \\, e^{\\left(-t\\right)}"}

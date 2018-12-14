@@ -1,0 +1,10 @@
+<exercise>
+  <title>C4 - Homogeneous second-order linear IVP (ver. 89)</title>
+  <statement>
+    <p>Find the solution to the given IVP.</p>
+    <me>y''+y'-20y = 0 \hspace{1em} y(0) = -2 , y'(0) = 28</me>
+  </statement>
+  <answer>
+    <me>y= 2 \, e^{\left(4 \, t\right)} - 4 \, e^{\left(-5 \, t\right)}</me>
+  </answer>
+</exercise>

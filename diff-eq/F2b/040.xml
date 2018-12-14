@@ -1,0 +1,10 @@
+<exercise>
+  <title>F2: Separation of variables (ver. 40)</title>
+  <statement>
+    <p>Find the solution to the given IVP.</p>
+    <me>y'=( -\cos\left(t\right) )y\hspace{1em} y(0)= 3</me>
+  </statement>
+  <answer>
+    <me>y= 3 \, e^{\left(-\sin\left(t\right)\right)}</me>
+  </answer>
+</exercise>

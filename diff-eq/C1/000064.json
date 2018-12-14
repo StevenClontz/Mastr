@@ -1,1 +1,0 @@
-{"_seed": 64, "ode": "y'-5y= -2 \\, \\cos\\left(t\\right) e^{\\left(5 \\, t\\right)}", "solution": "y= k e^{\\left(5 \\, t\\right)} - 2 \\, e^{\\left(5 \\, t\\right)} \\sin\\left(t\\right)"}

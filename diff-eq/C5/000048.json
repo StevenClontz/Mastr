@@ -1,1 +1,0 @@
-{"_seed": 48, "ode": "y''-5y'+4y = -20 \\, e^{\\left(-t\\right)}", "solution": "y= k_{2} e^{\\left(4 \\, t\\right)} + k_{1} e^{t} - 2 \\, e^{\\left(-t\\right)}"}

@@ -1,1 +1,0 @@
-{"_seed": 75, "ode": "y''+7y'+10y = 210 \\, e^{\\left(5 \\, t\\right)}", "solution": "y= k_{1} e^{\\left(-2 \\, t\\right)} + k_{2} e^{\\left(-5 \\, t\\right)} + 3 \\, e^{\\left(5 \\, t\\right)}"}

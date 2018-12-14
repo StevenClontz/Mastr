@@ -1,1 +1,0 @@
-{"_seed": 55, "ode": "y''-4y'-5y = -135 \\, e^{\\left(-4 \\, t\\right)}", "solution": "y= k_{1} e^{\\left(5 \\, t\\right)} + k_{2} e^{\\left(-t\\right)} - 5 \\, e^{\\left(-4 \\, t\\right)}"}

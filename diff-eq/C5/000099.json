@@ -1,1 +1,0 @@
-{"_seed": 99, "ode": "y''-2y'-3y = -160 \\, e^{\\left(-5 \\, t\\right)}", "solution": "y= k_{2} e^{\\left(3 \\, t\\right)} + k_{1} e^{\\left(-t\\right)} - 5 \\, e^{\\left(-5 \\, t\\right)}"}

@@ -1,1 +1,0 @@
-{"_seed": 100, "ode": "y''-1y'-2y = -4 \\, e^{t}", "solution": "y= k_{1} e^{\\left(2 \\, t\\right)} + k_{2} e^{\\left(-t\\right)} + 2 \\, e^{t}"}

@@ -1,4 +1,6 @@
 class C1(MastrExercise):
+  def title(self):
+    return "C1 - Non-homogeneous first-order linear ODE"
   def generate(self):
     t = var("t")
     y = function("y")(t)
@@ -21,5 +23,5 @@ class C1(MastrExercise):
    
     return {
       "ode": "y'"+display_coeff(-a)+"y="+latex(part_sol.diff()-a*part_sol),
-      "solution": "y="+latex(k*exp(a*t)+part_sol)
+      "ode_sol": "y="+latex(k*exp(a*t)+part_sol)
     }

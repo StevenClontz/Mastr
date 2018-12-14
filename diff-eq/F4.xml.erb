@@ -1,0 +1,29 @@
+<exercise>
+  <title><%= _title %> (ver. <%= _seed %>)</title>
+  <statement>
+    <p>
+      Draw a phase line for the following 
+      autonomous ODE.
+    </p>
+    <me><%= ode %></me>
+    <p>
+      Label each equilibrium of the ODE
+      as stable/unstable and sink/source/neither.
+      Then compute <m>\lim_{t\to\infty}x(t)</m>
+      assuming the initial condition
+      <m><%= initial_condition %></m>.
+    </p>
+  </statement>
+  <answer>
+    <p>
+      <m><%= a %></m> is a <%= a_label %>.
+      <% unless z_label == "N/A" %>
+        <m>0</m> is a <%= z_label %>.
+      <% end %>
+      <m><%= b %></m> is a <%= b_label %>.
+    </p>
+    <p>
+      <m>\lim_{t\to\infty}x(t)=<%= lim %></m>.
+    </p>
+  </answer>
+</exercise>

@@ -1,0 +1,10 @@
+<exercise>
+  <title>C4 - Homogeneous second-order linear IVP (ver. 3)</title>
+  <statement>
+    <p>Find the solution to the given IVP.</p>
+    <me>y''+2y'-15y = 0 \hspace{1em} y(0) = 5 , y'(0) = -1</me>
+  </statement>
+  <answer>
+    <me>y= 3 \, e^{\left(3 \, t\right)} + 2 \, e^{\left(-5 \, t\right)}</me>
+  </answer>
+</exercise>

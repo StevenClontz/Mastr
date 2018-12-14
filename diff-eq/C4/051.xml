@@ -1,0 +1,10 @@
+<exercise>
+  <title>C4 - Homogeneous second-order linear IVP (ver. 51)</title>
+  <statement>
+    <p>Find the solution to the given IVP.</p>
+    <me>y''-2y'-8y = 0 \hspace{1em} y(0) = 8 , y'(0) = 14</me>
+  </statement>
+  <answer>
+    <me>y= 5 \, e^{\left(4 \, t\right)} + 3 \, e^{\left(-2 \, t\right)}</me>
+  </answer>
+</exercise>

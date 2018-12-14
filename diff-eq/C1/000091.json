@@ -1,1 +1,0 @@
-{"_seed": 91, "ode": "y'+4y= 15 \\, \\cos\\left(5 \\, t\\right) e^{\\left(-4 \\, t\\right)}", "solution": "y= k e^{\\left(-4 \\, t\\right)} + 3 \\, e^{\\left(-4 \\, t\\right)} \\sin\\left(5 \\, t\\right)"}

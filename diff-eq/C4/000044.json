@@ -1,1 +1,0 @@
-{"_seed": 44, "ivp": "y''+4y'+3y = 0 \\hspace{1em} y(0) = -7 , y'(0) = 13", "solution": "y= -4 \\, e^{\\left(-t\\right)} - 3 \\, e^{\\left(-3 \\, t\\right)}"}

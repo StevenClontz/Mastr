@@ -1,4 +1,6 @@
 class C3(MastrExercise):
+  def title(self):
+    return "C3 - Homogeneous second-order linear ODE"
   def generate(self):
     t = var("t")
     y = function("y")(t)
@@ -16,5 +18,5 @@ class C3(MastrExercise):
         "y'" +
         display_coeff(a^2) +
         "y = 0",
-      "solution": "y="+latex(k2*exp(a*t)+k1*t*exp(a*t))
+      "ode_sol": "y="+latex(k2*exp(a*t)+k1*t*exp(a*t))
     }

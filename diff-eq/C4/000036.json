@@ -1,1 +1,0 @@
-{"_seed": 36, "ivp": "y''+8y'+15y = 0 \\hspace{1em} y(0) = -3 , y'(0) = 13", "solution": "y= -e^{\\left(-3 \\, t\\right)} - 2 \\, e^{\\left(-5 \\, t\\right)}"}

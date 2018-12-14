@@ -1,0 +1,10 @@
+<exercise>
+  <title>C4 - Homogeneous second-order linear IVP (ver. 72)</title>
+  <statement>
+    <p>Find the solution to the given IVP.</p>
+    <me>y''+0y'-16y = 0 \hspace{1em} y(0) = -1 , y'(0) = 4</me>
+  </statement>
+  <answer>
+    <me>y= -e^{\left(-4 \, t\right)}</me>
+  </answer>
+</exercise>

@@ -1,1 +1,0 @@
-{"_seed": 56, "ode": "y''+6y'+25y = 0", "complex_solution": "y= c_{1} e^{\\left(\\left(4 i - 3\\right) \\, t\\right)} + c_{2} e^{\\left(-\\left(4 i + 3\\right) \\, t\\right)}", "solution": "y= {\\left(k_{1} \\cos\\left(4 \\, t\\right) + k_{2} \\sin\\left(4 \\, t\\right)\\right)} e^{\\left(-3 \\, t\\right)}"}

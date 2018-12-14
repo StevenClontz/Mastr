@@ -1,1 +1,0 @@
-{"_seed": 4, "ode": "y'+4y= 15 \\, e^{t}", "solution": "y= k e^{\\left(-4 \\, t\\right)} + 3 \\, e^{t}"}

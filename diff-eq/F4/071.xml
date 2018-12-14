@@ -1,0 +1,29 @@
+<exercise>
+  <title>F4: Autonomous ODEs (ver. 71)</title>
+  <statement>
+    <p>
+      Draw a phase line for the following 
+      autonomous ODE.
+    </p>
+    <me>x'= x^{3} - 4 \, x</me>
+    <p>
+      Label each equilibrium of the ODE
+      as stable/unstable and sink/source/neither.
+      Then compute <m>\lim_{t\to\infty}x(t)</m>
+      assuming the initial condition
+      <m>x( -0.90 )= 1.2</m>.
+    </p>
+  </statement>
+  <answer>
+    <p>
+      <m>-2</m> is a source/unstable.
+      
+        <m>0</m> is a sink/stable.
+      
+      <m>2</m> is a source/unstable.
+    </p>
+    <p>
+      <m>\lim_{t\to\infty}x(t)=2</m>.
+    </p>
+  </answer>
+</exercise>

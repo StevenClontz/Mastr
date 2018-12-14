@@ -1,1 +1,0 @@
-{"_seed": 75, "ode": "y''+4y'+29y = 0", "complex_solution": "y= c_{1} e^{\\left(\\left(5 i - 2\\right) \\, t\\right)} + c_{2} e^{\\left(-\\left(5 i + 2\\right) \\, t\\right)}", "solution": "y= {\\left(k_{1} \\cos\\left(5 \\, t\\right) + k_{2} \\sin\\left(5 \\, t\\right)\\right)} e^{\\left(-2 \\, t\\right)}"}

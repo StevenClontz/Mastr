@@ -1,0 +1,10 @@
+<exercise>
+  <title>C1 - Non-homogeneous first-order linear ODE (ver. 94)</title>
+  <statement>
+    <p>Find the general solution to the given ODE.</p>
+    <me>y'+4y= -9 \, \cos\left(3 \, t\right) e^{\left(-4 \, t\right)}</me>
+  </statement>
+  <answer>
+    <me>y= k e^{\left(-4 \, t\right)} - 3 \, e^{\left(-4 \, t\right)} \sin\left(3 \, t\right)</me>
+  </answer>
+</exercise>

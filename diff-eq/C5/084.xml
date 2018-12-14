@@ -1,0 +1,10 @@
+<exercise>
+  <title>C5 - Non-homogeneous second-order linear ODEs (ver. 84)</title>
+  <statement>
+    <p>Find the solution to the given ODE.</p>
+    <me>y''+3y'-4y = -6 \, e^{\left(-2 \, t\right)}</me>
+  </statement>
+  <answer>
+    <me>y= k_{1} e^{\left(-4 \, t\right)} + k_{2} e^{t} + e^{\left(-2 \, t\right)}</me>
+  </answer>
+</exercise>

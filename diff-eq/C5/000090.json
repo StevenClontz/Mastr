@@ -1,1 +1,0 @@
-{"_seed": 90, "ode": "y''-4y'+3y = -45 \\, e^{\\left(-2 \\, t\\right)}", "solution": "y= k_{1} e^{\\left(3 \\, t\\right)} + k_{2} e^{t} - 3 \\, e^{\\left(-2 \\, t\\right)}"}

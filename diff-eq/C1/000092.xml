@@ -1,7 +1,0 @@
-<exercise>
-  <p>Find the general solution to the given ODE.</p>
-  <me>y'-1y= -3 \, \cos\left(-t\right) e^{t}</me>
-  <solution>
-    <me>y= k e^{t} + 3 \, e^{t} \sin\left(-t\right)</me>
-  </solution>
-</exercise>

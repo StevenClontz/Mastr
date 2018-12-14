@@ -1,1 +1,0 @@
-{"_seed": 62, "ode": "y'+y= -2 \\, e^{\\left(-t\\right)}", "solution": "y= k e^{\\left(-t\\right)} - 2 \\, t e^{\\left(-t\\right)}"}

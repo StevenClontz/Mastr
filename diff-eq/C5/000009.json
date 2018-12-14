@@ -1,1 +1,0 @@
-{"_seed": 9, "ode": "y''+7y'+12y = 6 \\, e^{\\left(-2 \\, t\\right)}", "solution": "y= k_{2} e^{\\left(-3 \\, t\\right)} + k_{1} e^{\\left(-4 \\, t\\right)} + 3 \\, e^{\\left(-2 \\, t\\right)}"}

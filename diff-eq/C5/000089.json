@@ -1,1 +1,0 @@
-{"_seed": 89, "ode": "y''+y'-20y = -54 \\, e^{t}", "solution": "y= k_{2} e^{\\left(4 \\, t\\right)} + k_{1} e^{\\left(-5 \\, t\\right)} + 3 \\, e^{t}"}

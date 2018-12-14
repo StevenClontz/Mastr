@@ -1,0 +1,10 @@
+<exercise>
+  <title>C4 - Homogeneous second-order linear IVP (ver. 37)</title>
+  <statement>
+    <p>Find the solution to the given IVP.</p>
+    <me>y''+16y = 0 \hspace{1em} y(0) = 5 , y'(0) = 8</me>
+  </statement>
+  <answer>
+    <me>y= 5 \, \cos\left(4 \, t\right) + 2 \, \sin\left(4 \, t\right)</me>
+  </answer>
+</exercise>

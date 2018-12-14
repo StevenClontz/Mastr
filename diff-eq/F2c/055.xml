@@ -1,0 +1,10 @@
+<exercise>
+  <title>F2: Separation of variables (ver. 55)</title>
+  <statement>
+    <p>Find the solution to the given IVP.</p>
+    <me>3 \, \cos\left(3 \, t\right) y= \sin\left(3 \, t\right) y'\hspace{1em} y\left( \frac{1}{6} \, \pi \right)= -1</me>
+  </statement>
+  <answer>
+    <me>y= -\sin\left(3 \, t\right)</me>
+  </answer>
+</exercise>

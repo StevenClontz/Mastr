@@ -1,1 +1,0 @@
-{"_seed": 60, "ode": "y''+4y'+5y = 0", "complex_solution": "y= c_{1} e^{\\left(\\left(i - 2\\right) \\, t\\right)} + c_{2} e^{\\left(-\\left(i + 2\\right) \\, t\\right)}", "solution": "y= {\\left(k_{1} \\cos\\left(t\\right) + k_{2} \\sin\\left(t\\right)\\right)} e^{\\left(-2 \\, t\\right)}"}

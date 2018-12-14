@@ -1,1 +1,0 @@
-{"_seed": 22, "ode": "y'+2y= 3 \\, e^{\\left(-2 \\, t\\right)} \\sin\\left(-t\\right)", "solution": "y= k e^{\\left(-2 \\, t\\right)} + 3 \\, \\cos\\left(-t\\right) e^{\\left(-2 \\, t\\right)}"}

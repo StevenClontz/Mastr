@@ -1,1 +1,0 @@
-{"_seed": 69, "ode": "y'-3y= -12 \\, e^{\\left(-3 \\, t\\right)}", "solution": "y= k e^{\\left(3 \\, t\\right)} + 2 \\, e^{\\left(-3 \\, t\\right)}"}

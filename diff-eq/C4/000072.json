@@ -1,1 +1,0 @@
-{"_seed": 72, "ivp": "y''+0y'-16y = 0 \\hspace{1em} y(0) = -4 , y'(0) = 0", "solution": "y= -2 \\, e^{\\left(4 \\, t\\right)} - 2 \\, e^{\\left(-4 \\, t\\right)}"}

@@ -1,7 +1,0 @@
-<exercise>
-  <p>Find the general solution to the given ODE.</p>
-  <me>y'-2y= 2 \, e^{\left(2 \, t\right)}</me>
-  <solution>
-    <me>y= k e^{\left(2 \, t\right)} + 2 \, t e^{\left(2 \, t\right)}</me>
-  </solution>
-</exercise>

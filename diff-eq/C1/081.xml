@@ -1,0 +1,10 @@
+<exercise>
+  <title>C1 - Non-homogeneous first-order linear ODE (ver. 81)</title>
+  <statement>
+    <p>Find the general solution to the given ODE.</p>
+    <me>y'+5y= -3 \, e^{\left(-4 \, t\right)}</me>
+  </statement>
+  <answer>
+    <me>y= k e^{\left(-5 \, t\right)} - 3 \, e^{\left(-4 \, t\right)}</me>
+  </answer>
+</exercise>

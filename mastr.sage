@@ -25,7 +25,10 @@ class MastrExercise:
     if not isinstance(self.export,dict):
       raise Exception("genereate method must return dict")
     self.export["_seed"]=int(seed)
-  def generate():
+    self.export["_title"]=self.title()
+  def title(self):
+    return "Untitled exercise" 
+  def generate(self):
     return {}
   def to_json(self):
     return json.dumps(self.export)
@@ -35,7 +38,11 @@ exercise = eval(exercise_name)
 
 seeds = xrange(1,101)
 
+seed_dict = {}
+
 for seed in seeds:
   set_random_seed(seed)
-  with open(exercise_path+'/'+str(seed).zfill(6)+'.json', 'w') as outfile:
-    outfile.write(exercise(seed).to_json())
+  seed_dict[seed] = exercise(seed).export
+
+with open(exercise_path+'/seeds.json', 'w') as outfile:
+  outfile.write(json.dumps(seed_dict))

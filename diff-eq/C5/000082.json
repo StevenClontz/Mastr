@@ -1,1 +1,0 @@
-{"_seed": 82, "ode": "y''+7y'+10y = 54 \\, e^{\\left(4 \\, t\\right)}", "solution": "y= k_{2} e^{\\left(-2 \\, t\\right)} + k_{1} e^{\\left(-5 \\, t\\right)} + e^{\\left(4 \\, t\\right)}"}

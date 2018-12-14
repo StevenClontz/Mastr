@@ -1,7 +1,0 @@
-<exercise>
-  <p>Find the general solution to the given ODE.</p>
-  <me>y'-1y= 8 \, \cos\left(4 \, t\right) e^{t}</me>
-  <solution>
-    <me>y= k e^{t} + 2 \, e^{t} \sin\left(4 \, t\right)</me>
-  </solution>
-</exercise>

@@ -1,1 +1,0 @@
-{"_seed": 92, "ode": "y''+0y'-1y = 24 \\, e^{\\left(5 \\, t\\right)}", "solution": "y= k_{2} e^{\\left(-t\\right)} + k_{1} e^{t} + e^{\\left(5 \\, t\\right)}"}

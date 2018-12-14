@@ -1,1 +1,0 @@
-{"_seed": 10, "ode": "y'+5y= 6 \\, e^{\\left(-3 \\, t\\right)}", "solution": "y= k e^{\\left(-5 \\, t\\right)} + 3 \\, e^{\\left(-3 \\, t\\right)}"}

@@ -1,7 +1,8 @@
 class C3b(MastrExercise):
+  def title(self):
+    return "C3 - Homogeneous second-order linear ODE"
   def generate(self):
     t = var("t")
-    y = function("y")(t)
     
     # pick a,b for (D-a)^2y+b^2=y''-2ay'+a^2+b^2
     a = randrange(1,6)*choice([-1,1])
@@ -19,7 +20,9 @@ class C3b(MastrExercise):
         "y'" +
         display_coeff(a^2+b^2) +
         "y = 0",
-      "complex_solution": "y="+latex(c1*exp((a+b*i)*t)+c2*exp((a-b*i)*t)),
-      "solution": "y="+latex(exp(a*t)*(k1*cos(b*t)+k2*sin(b*t)))
+      "complex_ode_sol": 
+        "y="+latex(c1*exp((a+b*i)*t)+c2*exp((a-b*i)*t)),
+      "ode_sol": 
+        "y="+latex(exp(a*t)*(k1*cos(b*t)+k2*sin(b*t)))
     }
     

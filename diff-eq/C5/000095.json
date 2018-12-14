@@ -1,1 +1,0 @@
-{"_seed": 95, "ode": "y''+2y'-8y = 25 \\, e^{\\left(-3 \\, t\\right)}", "solution": "y= k_{1} e^{\\left(2 \\, t\\right)} + k_{2} e^{\\left(-4 \\, t\\right)} - 5 \\, e^{\\left(-3 \\, t\\right)}"}

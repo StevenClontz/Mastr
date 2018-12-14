@@ -1,1 +1,0 @@
-{"_seed": 51, "ode": "y''-2y'-8y = 20 \\, e^{\\left(-t\\right)}", "solution": "y= k_{2} e^{\\left(4 \\, t\\right)} + k_{1} e^{\\left(-2 \\, t\\right)} - 4 \\, e^{\\left(-t\\right)}"}

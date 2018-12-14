@@ -1,1 +1,0 @@
-{"_seed": 70, "ivp": "y''+16y = 0 \\hspace{1em} y(0) = 4 , y'(0) = -8", "solution": "y= 4 \\, \\cos\\left(4 \\, t\\right) - 2 \\, \\sin\\left(4 \\, t\\right)"}

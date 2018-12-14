@@ -1,1 +1,0 @@
-{"_seed": 87, "ode": "y'-3y= 3 \\, e^{\\left(4 \\, t\\right)}", "solution": "y= k e^{\\left(3 \\, t\\right)} + 3 \\, e^{\\left(4 \\, t\\right)}"}

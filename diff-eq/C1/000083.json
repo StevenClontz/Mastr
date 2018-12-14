@@ -1,1 +1,0 @@
-{"_seed": 83, "ode": "y'+y= 6 \\, e^{\\left(-3 \\, t\\right)}", "solution": "y= k e^{\\left(-t\\right)} - 3 \\, e^{\\left(-3 \\, t\\right)}"}

@@ -1,7 +1,0 @@
-<exercise>
-  <p>Find the general solution to the given ODE.</p>
-  <me>y'+y= 10 \, \cos\left(5 \, t\right) e^{\left(-t\right)}</me>
-  <solution>
-    <me>y= k e^{\left(-t\right)} + 2 \, e^{\left(-t\right)} \sin\left(5 \, t\right)</me>
-  </solution>
-</exercise>

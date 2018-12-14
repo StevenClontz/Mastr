@@ -1,1 +1,0 @@
-{"_seed": 96, "ode": "y'-4y= 9 \\, e^{\\left(4 \\, t\\right)} \\sin\\left(3 \\, t\\right)", "solution": "y= k e^{\\left(4 \\, t\\right)} - 3 \\, \\cos\\left(3 \\, t\\right) e^{\\left(4 \\, t\\right)}"}

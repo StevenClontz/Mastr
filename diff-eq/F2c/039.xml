@@ -1,0 +1,10 @@
+<exercise>
+  <title>F2: Separation of variables (ver. 39)</title>
+  <statement>
+    <p>Find the solution to the given IVP.</p>
+    <me>-3 \, \sin\left(3 \, t\right) y= \cos\left(3 \, t\right) y'\hspace{1em} y\left( 0 \right)= -3</me>
+  </statement>
+  <answer>
+    <me>y= -3 \, \cos\left(3 \, t\right)</me>
+  </answer>
+</exercise>

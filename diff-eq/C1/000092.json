@@ -1,1 +1,0 @@
-{"_seed": 92, "ode": "y'-1y= -3 \\, \\cos\\left(-t\\right) e^{t}", "solution": "y= k e^{t} + 3 \\, e^{t} \\sin\\left(-t\\right)"}

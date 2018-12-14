@@ -1,1 +1,0 @@
-{"_seed": 29, "ivp": "y''-3y'-10y = 0 \\hspace{1em} y(0) = 0 , y'(0) = 21", "solution": "y= 3 \\, e^{\\left(5 \\, t\\right)} - 3 \\, e^{\\left(-2 \\, t\\right)}"}

@@ -1,1 +1,0 @@
-{"_seed": 5, "ode": "y''-2y'+y = 0", "solution": "y= k_{1} t e^{t} + k_{2} e^{t}"}

@@ -1,0 +1,10 @@
+<exercise>
+  <title>F2: Separation of variables (ver. 24)</title>
+  <statement>
+    <p>Find the solution to the given IVP.</p>
+    <me>2 \, \cos\left(2 \, t\right) y= \sin\left(2 \, t\right) y'\hspace{1em} y\left( \frac{1}{4} \, \pi \right)= 2</me>
+  </statement>
+  <answer>
+    <me>y= 2 \, \sin\left(2 \, t\right)</me>
+  </answer>
+</exercise>

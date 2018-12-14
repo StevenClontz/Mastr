@@ -1,1 +1,0 @@
-{"_seed": 58, "ode": "y''+8y'+20y = 0", "complex_solution": "y= c_{1} e^{\\left(\\left(2 i - 4\\right) \\, t\\right)} + c_{2} e^{\\left(-\\left(2 i + 4\\right) \\, t\\right)}", "solution": "y= {\\left(k_{1} \\cos\\left(2 \\, t\\right) + k_{2} \\sin\\left(2 \\, t\\right)\\right)} e^{\\left(-4 \\, t\\right)}"}

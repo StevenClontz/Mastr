@@ -1,1 +1,0 @@
-{"_seed": 33, "ode": "y'+y= -15 \\, \\cos\\left(5 \\, t\\right) e^{\\left(-t\\right)}", "solution": "y= k e^{\\left(-t\\right)} - 3 \\, e^{\\left(-t\\right)} \\sin\\left(5 \\, t\\right)"}

@@ -1,7 +1,0 @@
-<exercise>
-  <p>Find the general solution to the given ODE.</p>
-  <me>y'-4y= 10 \, \cos\left(-5 \, t\right) e^{\left(4 \, t\right)}</me>
-  <solution>
-    <me>y= k e^{\left(4 \, t\right)} - 2 \, e^{\left(4 \, t\right)} \sin\left(-5 \, t\right)</me>
-  </solution>
-</exercise>

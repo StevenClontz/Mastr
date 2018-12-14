@@ -1,1 +1,0 @@
-{"_seed": 86, "ode": "y''+0y'-4y = 48 \\, e^{\\left(4 \\, t\\right)}", "solution": "y= k_{2} e^{\\left(2 \\, t\\right)} + k_{1} e^{\\left(-2 \\, t\\right)} + 4 \\, e^{\\left(4 \\, t\\right)}"}

@@ -1,1 +1,0 @@
-{"_seed": 81, "ode": "y''+9y'+20y = -24 \\, e^{\\left(-t\\right)}", "solution": "y= k_{2} e^{\\left(-4 \\, t\\right)} + k_{1} e^{\\left(-5 \\, t\\right)} - 2 \\, e^{\\left(-t\\right)}"}

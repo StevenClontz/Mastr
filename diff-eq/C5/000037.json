@@ -1,1 +1,0 @@
-{"_seed": 37, "ode": "y''+y'-20y = -14 \\, e^{\\left(2 \\, t\\right)}", "solution": "y= k_{1} e^{\\left(4 \\, t\\right)} + k_{2} e^{\\left(-5 \\, t\\right)} + e^{\\left(2 \\, t\\right)}"}

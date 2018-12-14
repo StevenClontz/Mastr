@@ -1,1 +1,0 @@
-{"_seed": 48, "ode": "y'-1y= 8 \\, \\cos\\left(4 \\, t\\right) e^{t}", "solution": "y= k e^{t} + 2 \\, e^{t} \\sin\\left(4 \\, t\\right)"}

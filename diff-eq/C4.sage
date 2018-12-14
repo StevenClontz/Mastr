@@ -1,7 +1,8 @@
 class C4(MastrExercise):
+  def title(self):
+    return "C4 - Homogeneous second-order linear IVP"
   def generate(self):
     t = var("t")
-    y = function("y")(t)
     
     # pick a,b for (D-a)(D-b)
     a = randrange(1,6)*choice([-1,1])
@@ -9,8 +10,10 @@ class C4(MastrExercise):
     while a==b:
       b = randrange(1,6)*choice([-1,1])
     # pick particular solution
-    k1 = randrange(0,6)*choice([-1,1])
-    k2 = randrange(-5,6)
+    k1 = randrange(-5,6)
+    k2 = k1
+    while k2==k1:
+      k2 = randrange(-5,6)
     y = k1*exp(a*t)+k2*exp(b*t)
     
     return {
@@ -23,6 +26,6 @@ class C4(MastrExercise):
         latex(y(t=0)) +
         ", y'(0) =" +
         latex(y.diff()(t=0)),
-      "solution":
+      "ivp_sol":
         "y="+latex(y)
     }

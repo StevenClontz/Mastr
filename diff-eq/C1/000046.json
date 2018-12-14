@@ -1,1 +1,0 @@
-{"_seed": 46, "ode": "y'-2y= -15 \\, e^{\\left(-3 \\, t\\right)}", "solution": "y= k e^{\\left(2 \\, t\\right)} + 3 \\, e^{\\left(-3 \\, t\\right)}"}

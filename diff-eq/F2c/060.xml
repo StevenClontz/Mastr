@@ -1,0 +1,10 @@
+<exercise>
+  <title>F2: Separation of variables (ver. 60)</title>
+  <statement>
+    <p>Find the solution to the given IVP.</p>
+    <me>-\sin\left(t\right) y= \cos\left(t\right) y'\hspace{1em} y\left( 0 \right)= -1</me>
+  </statement>
+  <answer>
+    <me>y= -\cos\left(t\right)</me>
+  </answer>
+</exercise>

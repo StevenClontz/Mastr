@@ -1,7 +1,0 @@
-<exercise>
-  <p>Find the general solution to the given ODE.</p>
-  <me>y'-1y= 15 \, e^{t} \sin\left(5 \, t\right)</me>
-  <solution>
-    <me>y= k e^{t} - 3 \, \cos\left(5 \, t\right) e^{t}</me>
-  </solution>
-</exercise>

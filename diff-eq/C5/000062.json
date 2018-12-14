@@ -1,1 +1,0 @@
-{"_seed": 62, "ode": "y''-1y'-2y = 8 \\, e^{\\left(-2 \\, t\\right)}", "solution": "y= k_{2} e^{\\left(2 \\, t\\right)} + k_{1} e^{\\left(-t\\right)} + 2 \\, e^{\\left(-2 \\, t\\right)}"}

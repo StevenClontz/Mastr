@@ -1,0 +1,11 @@
+<exercise>
+  <title>C3 - Homogeneous second-order linear ODE (ver. 66)</title>
+  <statement>
+    <p>Find the general solution to the given ODE.</p>
+    <me>y''+6y'+34y = 0</me>
+  </statement>
+  <answer>
+    <me>y= c_{1} e^{\left(\left(5 i - 3\right) \, t\right)} + c_{2} e^{\left(-\left(5 i + 3\right) \, t\right)}</me>
+    <me>y= {\left(k_{1} \cos\left(5 \, t\right) + k_{2} \sin\left(5 \, t\right)\right)} e^{\left(-3 \, t\right)}</me>
+  </answer>
+</exercise>

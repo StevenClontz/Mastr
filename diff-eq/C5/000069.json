@@ -1,1 +1,0 @@
-{"_seed": 69, "ode": "y''+0y'-9y = 16 \\, e^{\\left(5 \\, t\\right)}", "solution": "y= k_{1} e^{\\left(3 \\, t\\right)} + k_{2} e^{\\left(-3 \\, t\\right)} + e^{\\left(5 \\, t\\right)}"}

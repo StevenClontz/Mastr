@@ -1,1 +1,0 @@
-{"_seed": 68, "ivp": "y''-6y'+5y = 0 \\hspace{1em} y(0) = 3 , y'(0) = 11", "solution": "y= 2 \\, e^{\\left(5 \\, t\\right)} + e^{t}"}
