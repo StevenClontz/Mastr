@@ -1,1 +1,1 @@
-{"_seed": 76, "non_hom": "8 \\, e^{\\left(5 \\, t\\right)} \\sin\\left(4 \\, t\\right)", "y_coeff": "-5", "solution": "y= k e^{\\left(5 \\, t\\right)} - 2 \\, \\cos\\left(4 \\, t\\right) e^{\\left(5 \\, t\\right)}"}
+{"_seed": 76, "ode": "y'-5y= 8 \\, e^{\\left(5 \\, t\\right)} \\sin\\left(4 \\, t\\right)", "solution": "y= k e^{\\left(5 \\, t\\right)} - 2 \\, \\cos\\left(4 \\, t\\right) e^{\\left(5 \\, t\\right)}"}

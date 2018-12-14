@@ -1,1 +1,1 @@
-{"_seed": 45, "non_hom": "-3 \\, e^{\\left(5 \\, t\\right)}", "y_coeff": "-5", "solution": "y= k e^{\\left(5 \\, t\\right)} - 3 \\, t e^{\\left(5 \\, t\\right)}"}
+{"_seed": 45, "ode": "y'-5y= -3 \\, e^{\\left(5 \\, t\\right)}", "solution": "y= k e^{\\left(5 \\, t\\right)} - 3 \\, t e^{\\left(5 \\, t\\right)}"}

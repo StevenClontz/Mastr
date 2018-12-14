@@ -1,1 +1,1 @@
-{"_seed": 80, "non_hom": "-2 \\, e^{\\left(4 \\, t\\right)} \\sin\\left(-t\\right)", "y_coeff": "-4", "solution": "y= k e^{\\left(4 \\, t\\right)} - 2 \\, \\cos\\left(-t\\right) e^{\\left(4 \\, t\\right)}"}
+{"_seed": 80, "ode": "y'-4y= -2 \\, e^{\\left(4 \\, t\\right)} \\sin\\left(-t\\right)", "solution": "y= k e^{\\left(4 \\, t\\right)} - 2 \\, \\cos\\left(-t\\right) e^{\\left(4 \\, t\\right)}"}

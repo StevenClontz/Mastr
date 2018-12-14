@@ -1,1 +1,1 @@
-{"_seed": 9, "non_hom": "-3 \\, e^{\\left(-4 \\, t\\right)}", "y_coeff": "+4", "solution": "y= k e^{\\left(-4 \\, t\\right)} - 3 \\, t e^{\\left(-4 \\, t\\right)}"}
+{"_seed": 9, "ode": "y'+4y= -3 \\, e^{\\left(-4 \\, t\\right)}", "solution": "y= k e^{\\left(-4 \\, t\\right)} - 3 \\, t e^{\\left(-4 \\, t\\right)}"}

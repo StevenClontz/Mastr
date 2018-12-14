@@ -1,1 +1,1 @@
-{"_seed": 29, "non_hom": "-4 \\, \\cos\\left(-2 \\, t\\right) e^{\\left(5 \\, t\\right)}", "y_coeff": "-5", "solution": "y= k e^{\\left(5 \\, t\\right)} + 2 \\, e^{\\left(5 \\, t\\right)} \\sin\\left(-2 \\, t\\right)"}
+{"_seed": 29, "ode": "y'-5y= -4 \\, \\cos\\left(-2 \\, t\\right) e^{\\left(5 \\, t\\right)}", "solution": "y= k e^{\\left(5 \\, t\\right)} + 2 \\, e^{\\left(5 \\, t\\right)} \\sin\\left(-2 \\, t\\right)"}

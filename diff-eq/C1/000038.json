@@ -1,1 +1,1 @@
-{"_seed": 38, "non_hom": "3 \\, e^{\\left(-2 \\, t\\right)} \\sin\\left(t\\right)", "y_coeff": "+2", "solution": "y= k e^{\\left(-2 \\, t\\right)} - 3 \\, \\cos\\left(t\\right) e^{\\left(-2 \\, t\\right)}"}
+{"_seed": 38, "ode": "y'+2y= 3 \\, e^{\\left(-2 \\, t\\right)} \\sin\\left(t\\right)", "solution": "y= k e^{\\left(-2 \\, t\\right)} - 3 \\, \\cos\\left(t\\right) e^{\\left(-2 \\, t\\right)}"}

@@ -1,0 +1,7 @@
+<exercise>
+  <p>Find the general solution to the given ODE.</p>
+  <me>y'-5y= -3 \, e^{\left(5 \, t\right)}</me>
+  <solution>
+    <me>y= k e^{\left(5 \, t\right)} - 3 \, t e^{\left(5 \, t\right)}</me>
+  </solution>
+</exercise>

@@ -20,7 +20,6 @@ class C1(MastrExercise):
     k = var("k")
    
     return {
-      "y_coeff": display_coeff(-a),
-      "non_hom": latex(part_sol.diff()-a*part_sol),
+      "ode": "y'"+display_coeff(-a)+"y="+latex(part_sol.diff()-a*part_sol),
       "solution": "y="+latex(k*exp(a*t)+part_sol)
     }

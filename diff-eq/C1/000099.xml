@@ -1,0 +1,7 @@
+<exercise>
+  <p>Find the general solution to the given ODE.</p>
+  <me>y'+y= 3 \, e^{\left(-t\right)}</me>
+  <solution>
+    <me>y= k e^{\left(-t\right)} + 3 \, t e^{\left(-t\right)}</me>
+  </solution>
+</exercise>
