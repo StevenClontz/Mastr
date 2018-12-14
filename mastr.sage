@@ -6,14 +6,6 @@ if len(sys.argv)<2:
 exercise_path = sys.argv[1]
 exercise_name = exercise_path.split("/")[-1]
 
-# Create directory based on path if necessary
-# https://stackoverflow.com/a/14364249
-try: 
-    os.makedirs(exercise_path)
-except OSError:
-    if not os.path.isdir(exercise_path):
-        raise
-
 def display_coeff(x):
   if x==1:
     return "+"
@@ -44,5 +36,14 @@ for seed in seeds:
   set_random_seed(seed)
   seed_dict[seed] = exercise(seed).export
 
+# Create directory based on path if necessary
+# https://stackoverflow.com/a/14364249
+try: 
+    os.makedirs(exercise_path)
+except OSError:
+    if not os.path.isdir(exercise_path):
+        raise
+
+# Create file
 with open(exercise_path+'/seeds.json', 'w') as outfile:
   outfile.write(json.dumps(seed_dict))

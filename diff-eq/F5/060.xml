@@ -1,0 +1,10 @@
+<exercise>
+  <title>F5: First order linear IVP (ver. 60)</title>
+  <statement>
+    <p>Find the solution to the given IVP.</p>
+    <me>-\frac{3}{t^{3}} +ty'= -2 y \hspace{1em} y( -1 ) = 6</me>
+  </statement>
+  <answer>
+    <me>y= 3 t^ -2 -3 \frac{1}{t^{3}}</me>
+  </answer>
+</exercise>

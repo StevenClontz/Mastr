@@ -1,0 +1,10 @@
+<exercise>
+  <title>F5: First order linear IVP (ver. 91)</title>
+  <statement>
+    <p>Find the solution to the given IVP.</p>
+    <me>-24 \, t^{3} +ty'= -3 y \hspace{1em} y( -3 ) = -\frac{2920}{27}</me>
+  </statement>
+  <answer>
+    <me>y= 4 t^ -3 +4 t^{3}</me>
+  </answer>
+</exercise>

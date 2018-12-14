@@ -1,0 +1,10 @@
+<exercise>
+  <title>F5: First order linear IVP (ver. 42)</title>
+  <statement>
+    <p>Find the solution to the given IVP.</p>
+    <me>-\frac{5}{t^{3}} +ty'= 2 y \hspace{1em} y( 4 ) = -\frac{2049}{64}</me>
+  </statement>
+  <answer>
+    <me>y= -2 t^ 2 -1 \frac{1}{t^{3}}</me>
+  </answer>
+</exercise>
