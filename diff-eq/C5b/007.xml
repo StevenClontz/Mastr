@@ -1,0 +1,10 @@
+<exercise>
+  <title>C4 - Homogeneous second-order linear IVP (ver. 7)</title>
+  <statement>
+    <p>Find the solution to the given IVP.</p>
+    <me>y''+16y = 0 \hspace{1em} y(0) = 0 , y'(0) = 12</me>
+  </statement>
+  <answer>
+    <me>y= 3 \, \sin\left(4 \, t\right)</me>
+  </answer>
+</exercise>

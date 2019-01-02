@@ -1,0 +1,10 @@
+<exercise>
+  <title>C5 - Non-homogeneous second-order linear ODEs (ver. 68)</title>
+  <statement>
+    <p>Find the solution to the given ODE.</p>
+    <me>y''-6y'+5y = -12 \, e^{\left(2 \, t\right)}</me>
+  </statement>
+  <answer>
+    <me>y= k_{2} e^{\left(5 \, t\right)} + k_{1} e^{t} + 4 \, e^{\left(2 \, t\right)}</me>
+  </answer>
+</exercise>

@@ -1,0 +1,10 @@
+<exercise>
+  <title>C5 - Non-homogeneous second-order linear ODEs (ver. 100)</title>
+  <statement>
+    <p>Find the solution to the given ODE.</p>
+    <me>y''-1y'-2y = -4 \, e^{t}</me>
+  </statement>
+  <answer>
+    <me>y= k_{1} e^{\left(2 \, t\right)} + k_{2} e^{\left(-t\right)} + 2 \, e^{t}</me>
+  </answer>
+</exercise>

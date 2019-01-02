@@ -1,0 +1,10 @@
+<exercise>
+  <title>C4 - Homogeneous second-order linear IVP (ver. 79)</title>
+  <statement>
+    <p>Find the solution to the given IVP.</p>
+    <me>y''+4y = 0 \hspace{1em} y(0) = -3 , y'(0) = -4</me>
+  </statement>
+  <answer>
+    <me>y= -3 \, \cos\left(2 \, t\right) - 2 \, \sin\left(2 \, t\right)</me>
+  </answer>
+</exercise>

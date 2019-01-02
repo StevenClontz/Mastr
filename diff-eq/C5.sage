@@ -1,6 +1,6 @@
-class C5(MastrExercise):
+class C4(MastrExercise):
   def title(self):
-    return "C5 - Non-homogeneous second-order linear ODEs"
+    return "C4 - Homogeneous second-order linear IVP"
   def generate(self):
     t = var("t")
     
@@ -10,25 +10,22 @@ class C5(MastrExercise):
     while a==b:
       b = randrange(1,6)*choice([-1,1])
     # pick particular solution
-    c=a
-    while c in [a,b]:
-      c = randrange(1,6)*choice([-1,1])
-    d = randrange(1,6)*choice([-1,1])
-    ypart = choice([
-      d*exp(c*t)
-    ])
-    k1 = var("k_1")
-    k2 = var("k_2")
+    k1 = randrange(-5,6)
+    k2 = k1
+    while k2==k1:
+      k2 = randrange(-5,6)
     y = k1*exp(a*t)+k2*exp(b*t)
     
     return {
-      "ode":
+      "ivp":
         "y''" +
         display_coeff(-a-b) +
         "y'" +
         display_coeff(a*b) +
-        "y = " +
-        latex(ypart.diff().diff()+(-a-b)*ypart.diff()+a*b*ypart),
-      "ode_sol":
-        "y="+latex(y+ypart)
+        "y = 0 \hspace{1em} y(0) = " +
+        latex(y(t=0)) +
+        ", y'(0) =" +
+        latex(y.diff()(t=0)),
+      "ivp_sol":
+        "y="+latex(y)
     }

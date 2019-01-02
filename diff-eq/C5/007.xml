@@ -1,10 +1,10 @@
 <exercise>
-  <title>C5 - Non-homogeneous second-order linear ODEs (ver. 7)</title>
+  <title>C4 - Homogeneous second-order linear IVP (ver. 7)</title>
   <statement>
-    <p>Find the solution to the given ODE.</p>
-    <me>y''-8y'+15y = -4 \, e^{\left(4 \, t\right)}</me>
+    <p>Find the solution to the given IVP.</p>
+    <me>y''-8y'+15y = 0 \hspace{1em} y(0) = 4 , y'(0) = 18</me>
   </statement>
   <answer>
-    <me>y= k_{1} e^{\left(5 \, t\right)} + k_{2} e^{\left(3 \, t\right)} + 4 \, e^{\left(4 \, t\right)}</me>
+    <me>y= 3 \, e^{\left(5 \, t\right)} + e^{\left(3 \, t\right)}</me>
   </answer>
 </exercise>

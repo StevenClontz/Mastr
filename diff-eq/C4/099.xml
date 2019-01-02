@@ -1,10 +1,10 @@
 <exercise>
-  <title>C4 - Homogeneous second-order linear IVP (ver. 99)</title>
+  <title>C3 - Homogeneous second-order linear ODE (ver. 99)</title>
   <statement>
-    <p>Find the solution to the given IVP.</p>
-    <me>y''-2y'-3y = 0 \hspace{1em} y(0) = 4 , y'(0) = -8</me>
+    <p>Find the general solution to the given ODE.</p>
+    <me>y''+2y'+y = 0</me>
   </statement>
   <answer>
-    <me>y= -e^{\left(3 \, t\right)} + 5 \, e^{\left(-t\right)}</me>
+    <me>y= k_{1} t e^{\left(-t\right)} + k_{2} e^{\left(-t\right)}</me>
   </answer>
 </exercise>

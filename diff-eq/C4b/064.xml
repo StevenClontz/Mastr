@@ -1,10 +1,11 @@
 <exercise>
-  <title>C4 - Homogeneous second-order linear IVP (ver. 64)</title>
+  <title>C3 - Homogeneous second-order linear ODE (ver. 64)</title>
   <statement>
-    <p>Find the solution to the given IVP.</p>
-    <me>y''+16y = 0 \hspace{1em} y(0) = -5 , y'(0) = 8</me>
+    <p>Find the general solution to the given ODE.</p>
+    <me>y''-10y'+26y = 0</me>
   </statement>
   <answer>
-    <me>y= -5 \, \cos\left(4 \, t\right) + 2 \, \sin\left(4 \, t\right)</me>
+    <me>y= c_{1} e^{\left(\left(i + 5\right) \, t\right)} + c_{2} e^{\left(-\left(i - 5\right) \, t\right)}</me>
+    <me>y= {\left(k_{1} \cos\left(t\right) + k_{2} \sin\left(t\right)\right)} e^{\left(5 \, t\right)}</me>
   </answer>
 </exercise>

@@ -1,10 +1,11 @@
 <exercise>
-  <title>C4 - Homogeneous second-order linear IVP (ver. 56)</title>
+  <title>C3 - Homogeneous second-order linear ODE (ver. 56)</title>
   <statement>
-    <p>Find the solution to the given IVP.</p>
-    <me>y''+9y = 0 \hspace{1em} y(0) = 3 , y'(0) = -9</me>
+    <p>Find the general solution to the given ODE.</p>
+    <me>y''+6y'+25y = 0</me>
   </statement>
   <answer>
-    <me>y= 3 \, \cos\left(3 \, t\right) - 3 \, \sin\left(3 \, t\right)</me>
+    <me>y= c_{1} e^{\left(\left(4 i - 3\right) \, t\right)} + c_{2} e^{\left(-\left(4 i + 3\right) \, t\right)}</me>
+    <me>y= {\left(k_{1} \cos\left(4 \, t\right) + k_{2} \sin\left(4 \, t\right)\right)} e^{\left(-3 \, t\right)}</me>
   </answer>
 </exercise>

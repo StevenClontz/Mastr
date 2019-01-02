@@ -1,27 +1,28 @@
-class C4b(MastrExercise):
+class C3b(MastrExercise):
   def title(self):
-    return "C4 - Homogeneous second-order linear IVP"
+    return "C3 - Homogeneous second-order linear ODE"
   def generate(self):
     t = var("t")
-    y = function("y")(t)
     
-    # pick a for D^2+a^2
-    a = randrange(2,5)
-    # pick particular solution
-    k1 = randrange(-5,6)
-    k2 = k1
-    while k2==k1:
-      k2 = randrange(-5,6)
-    y = k1*sin(a*t)+k2*cos(a*t)
+    # pick a,b for (D-a)^2y+b^2=y''-2ay'+a^2+b^2
+    a = randrange(1,6)*choice([-1,1])
+    b = randrange(1,6)
+    
+    c1 = var("c_1")
+    c2 = var("c_2")
+    k1 = var("k_1")
+    k2 = var("k_2")
     
     return {
-      "ivp":
+      "ode": 
         "y''" +
-        display_coeff(a^2) +
-        "y = 0 \hspace{1em} y(0) = " +
-        latex(y(t=0)) +
-        ", y'(0) =" +
-        latex(y.diff()(t=0)),
-      "ivp_sol":
-        "y="+latex(y)
+        display_coeff(-2*a) +
+        "y'" +
+        display_coeff(a^2+b^2) +
+        "y = 0",
+      "complex_ode_sol": 
+        "y="+latex(c1*exp((a+b*i)*t)+c2*exp((a-b*i)*t)),
+      "ode_sol": 
+        "y="+latex(exp(a*t)*(k1*cos(b*t)+k2*sin(b*t)))
     }
+    
