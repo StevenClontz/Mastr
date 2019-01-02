@@ -2,9 +2,9 @@
   <title>C1 - Homogeneous first-order linear ODE (ver. 81)</title>
   <statement>
     <p>Find the general solution to the given ODE.</p>
-    <me>y'+5y=0</me>
+    <me>y'+8y=0</me>
   </statement>
   <answer>
-    <me>y= k e^{\left(-5 \, t\right)}</me>
+    <me>y= k e^{\left(-8 \, t\right)}</me>
   </answer>
 </exercise>

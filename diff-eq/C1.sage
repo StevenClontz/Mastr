@@ -6,7 +6,7 @@ class C1(MastrExercise):
     y = function("y")(t)
     
     # pick a for y'-ay
-    a = randrange(1,6)*choice([-1,1])
+    a = randrange(1,10)*choice([-1,1])
 
     k = var('k')   
  
