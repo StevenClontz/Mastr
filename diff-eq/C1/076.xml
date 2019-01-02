@@ -1,0 +1,10 @@
+<exercise>
+  <title>C1 - Homogeneous first-order linear ODE (ver. 76)</title>
+  <statement>
+    <p>Find the general solution to the given ODE.</p>
+    <me>y'-5y=0</me>
+  </statement>
+  <answer>
+    <me>y= k e^{\left(5 \, t\right)}</me>
+  </answer>
+</exercise>

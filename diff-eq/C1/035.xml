@@ -1,0 +1,10 @@
+<exercise>
+  <title>C1 - Homogeneous first-order linear ODE (ver. 35)</title>
+  <statement>
+    <p>Find the general solution to the given ODE.</p>
+    <me>y'-2y=0</me>
+  </statement>
+  <answer>
+    <me>y= k e^{\left(2 \, t\right)}</me>
+  </answer>
+</exercise>
