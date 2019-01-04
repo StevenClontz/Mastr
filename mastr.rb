@@ -2,20 +2,23 @@ require 'json'
 require 'erb'
 require 'nokogiri'
 
-exercise_path = ARGV[0]
-
-if exercise_path.nil?
+if ARGV[0].nil?
   raise ArgumentError.new("must provide an exercise path")
+else
+  exercise_path = ARGV[0]
+  build_path = "build/"+exercise_path
 end
 
 template = ERB.new(File.read(exercise_path+".xml.erb"))
 
-json_file = File.read(exercise_path+"/seeds.json")
-seeds = JSON.parse(json_file).values
+json_file = File.read(build_path+"/seeds.json")
+seeds = JSON.parse(json_file)
 
-seeds.each do |seed|
+seeds["seeds"].each do |seed|
+  # put title on seed
+  seed["_title"]=seeds["title"]
   # build xml.erb template
-  xml_filename = exercise_path+'/'+seed["_seed"].to_s.rjust(3, "0")+".xml"
+  xml_filename = build_path+'/'+seed["_seed"].to_s.rjust(3, "0")+".xml"
   xml_str = 
     template.result_with_hash(seed)
   File.write(
@@ -27,6 +30,9 @@ seeds.each do |seed|
     html_doc.css(tag_name).each do |tag| 
       tag.name="div"
       tag['class']=tag_name
+      if tag_name == 'answer'
+        tag.children.before("<h4>Answer.</h4>")
+      end
     end 
   end
   html_doc.css("title").each do |tag|
@@ -43,7 +49,7 @@ seeds.each do |seed|
     tag['class']="m"
     tag.content = '\('+tag.content+'\)'
   end
-  html_filename = exercise_path+'/'+seed["_seed"].to_s.rjust(3, "0")+".html"
+  html_filename = build_path+'/'+seed["_seed"].to_s.rjust(3, "0")+".html"
   File.write(
     html_filename, html_doc.root.to_s
   )
@@ -69,7 +75,7 @@ seeds.each do |seed|
     '\begin{exercise}'+
     latex_doc.at_css("exercise").content+
     '\end{exercise}'
-  latex_filename = exercise_path+'/'+seed["_seed"].to_s.rjust(3, "0")+".tex"
+  latex_filename = build_path+'/'+seed["_seed"].to_s.rjust(3, "0")+".tex"
   File.write(
     latex_filename, latex_doc.at_css("exercise").text
   )

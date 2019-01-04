@@ -1,6 +1,6 @@
-class C5(MastrExercise):
+class C6(MastrExercise):
   def title(self):
-    return "C5 - Non-homogeneous second-order linear ODEs"
+    return "C6 - Non-homogeneous second-order linear ODEs"
   def generate(self):
     t = var("t")
     

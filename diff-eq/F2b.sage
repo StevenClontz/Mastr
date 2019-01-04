@@ -1,6 +1,6 @@
 class F2b(MastrExercise):
   def title(self):
-    return "F2: Separation of variables"
+    return "F2b: Separation of variables"
   def generate(self):
     t = var("t")
     # pick p(t) for y=e^p(t)

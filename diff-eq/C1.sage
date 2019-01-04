@@ -1,6 +1,8 @@
 class C1(MastrExercise):
-  def title(self):
+  @classmethod
+  def title(cls):
     return "C1 - Homogeneous first-order linear ODE"
+
   def generate(self):
     t = var("t")
     y = function("y")(t)

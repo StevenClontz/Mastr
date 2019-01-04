@@ -1,6 +1,6 @@
 class F2c(MastrExercise):
   def title(self):
-    return "F2: Separation of variables"
+    return "F2c: Separation of variables"
   def generate(self):
     t = var("t")
     

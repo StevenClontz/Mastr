@@ -12,38 +12,42 @@ def display_coeff(x):
   return ("+" if x > -1 else "") + str(x)
 
 class MastrExercise:
+  @classmethod
+  def title(cls):
+    return "Untitled exercise" 
+
   def __init__(self,seed):
     self.export = self.generate()
     if not isinstance(self.export,dict):
       raise Exception("genereate method must return dict")
     self.export["_seed"]=int(seed)
-    self.export["_title"]=self.title()
-  def title(self):
-    return "Untitled exercise" 
   def generate(self):
     return {}
   def to_json(self):
     return json.dumps(self.export)
 
 load(exercise_path+".sage")
-exercise = eval(exercise_name)
+Exercise = eval(exercise_name)
 
-seeds = xrange(1,101)
+seed_ints = xrange(1,101)
 
-seed_dict = {}
+seeds = {
+  "title": Exercise.title(),
+  "seeds": []
+}
 
-for seed in seeds:
-  set_random_seed(seed)
-  seed_dict[seed] = exercise(seed).export
+for seed_int in seed_ints:
+  set_random_seed(seed_int)
+  seeds["seeds"].append(Exercise(seed_int).export)
 
 # Create directory based on path if necessary
 # https://stackoverflow.com/a/14364249
 try: 
-    os.makedirs(exercise_path)
+  os.makedirs('build/'+exercise_path)
 except OSError:
-    if not os.path.isdir(exercise_path):
-        raise
+  if not os.path.isdir('build/'+exercise_path):
+    raise
 
 # Create file
-with open(exercise_path+'/seeds.json', 'w') as outfile:
-  outfile.write(json.dumps(seed_dict))
+with open('build/'+exercise_path+'/seeds.json', 'w') as outfile:
+  outfile.write(json.dumps(seeds))

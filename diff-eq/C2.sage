@@ -1,6 +1,6 @@
-class C1(MastrExercise):
+class C2(MastrExercise):
   def title(self):
-    return "C1 - Non-homogeneous first-order linear ODE"
+    return "C2 - Non-homogeneous first-order linear ODE"
   def generate(self):
     t = var("t")
     y = function("y")(t)
