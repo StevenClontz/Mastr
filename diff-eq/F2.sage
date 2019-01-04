@@ -1,6 +1,8 @@
 class F2(MastrExercise):
+  @classmethod
   def title(self):
     return "F2: Separation of variables"
+
   def generate(self):
     t = var("t")
     

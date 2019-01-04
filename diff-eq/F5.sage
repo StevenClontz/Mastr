@@ -1,6 +1,8 @@
 class F5(MastrExercise):
+  @classmethod
   def title(self):
     return "F5: First order linear IVP" 
+
   def generate(self):
     t = var("t")
     

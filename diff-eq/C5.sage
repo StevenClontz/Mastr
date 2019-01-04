@@ -1,6 +1,8 @@
 class C5(MastrExercise):
+  @classmethod
   def title(self):
     return "C5 - Homogeneous second-order linear IVP"
+
   def generate(self):
     t = var("t")
     

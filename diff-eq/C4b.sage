@@ -1,6 +1,8 @@
 class C4b(MastrExercise):
+  @classmethod
   def title(self):
     return "C4b - Homogeneous second-order linear ODE"
+
   def generate(self):
     t = var("t")
     

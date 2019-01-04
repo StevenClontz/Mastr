@@ -1,6 +1,8 @@
 class C4(MastrExercise):
+  @classmethod
   def title(self):
     return "C4 - Homogeneous second-order linear ODE"
+
   def generate(self):
     t = var("t")
     y = function("y")(t)

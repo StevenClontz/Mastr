@@ -1,6 +1,8 @@
 class C6(MastrExercise):
+  @classmethod
   def title(self):
     return "C6 - Non-homogeneous second-order linear ODEs"
+
   def generate(self):
     t = var("t")
     

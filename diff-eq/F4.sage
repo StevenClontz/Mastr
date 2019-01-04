@@ -1,6 +1,8 @@
 class F4(MastrExercise):
+  @classmethod
   def title(self):
     return "F4: Autonomous ODEs"
+
   def generate(self):
     t = var("t")
     
