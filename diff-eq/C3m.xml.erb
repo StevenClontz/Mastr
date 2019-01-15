@@ -9,7 +9,7 @@
     <p>
       Write an initial value problem (IVP) modeling the velocity of this
       water droplet when dropped from rest, assuming that the acceleration due
-      to gravity is roughly <m>9.8\hspace{1em}\mathrm{m}/\mathrm{s}^2</m>.
+      to gravity is roughly <m>9.8\hspace{0.3em}\mathrm{m}/\mathrm{s}^2</m>.
       Then solve this IVP to compute the droplet's velocity after
       <m><%= elapsed_time %></m> seconds. 
     </p>
@@ -17,8 +17,8 @@
   <answer>
     <p>
       The IVP is given by
-      <me>v'+av=-g</me>
-      where <m>g=9.8</m> and <m>a\approx <%= coefficient %></m>.
+      <me>v'+av=-g \hspace{3em} v(0)=0</me>
+      where <m>g=9.81</m> and <m>a\approx <%= coefficient %></m>.
     </p>
     <p>
       The velocity after

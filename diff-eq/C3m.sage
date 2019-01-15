@@ -7,7 +7,7 @@ class C3m(MastrExercise):
     term_speed = (randrange(101,999)/1000) # in m/s
     drag_coeff = 0.7
     atmo_density = 1.22665
-    grav_accel = 9.8
+    grav_accel = 9.81
     radius = (drag_coeff*atmo_density*term_speed^2/(200*grav_accel)) 
     mass = (100*pi*radius^3)
     coefficient = (grav_accel/term_speed) # the a in v'+av=-g
@@ -17,10 +17,10 @@ class C3m(MastrExercise):
       )
  
     return {
-      "radius": latex(radius.n(digits=2)),
-      "mass": latex(mass.n(digits=2)),
+      "radius": latex(radius.n(digits=3)),
+      "mass": latex(mass.n(digits=3)),
       "term_speed": latex(term_speed.n(digits=3)),
       "coefficient": latex(coefficient.n(digits=3)),
       "elapsed_time": "0.0"+(elapsed_time*100).str(),
-      "elapsed_velocity": latex(elapsed_velocity.n(digits=2))
+      "elapsed_velocity": latex(elapsed_velocity.n(digits=3))
     }
