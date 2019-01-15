@@ -1,0 +1,29 @@
+<exercise>
+  <title><%= _title %> (ver. <%= _seed %>)</title>
+  <statement>
+    <p>
+      A water droplet with a radius of <m><%= radius %></m> meters has a mass of
+      about <m><%= mass %></m> kilograms and a downward terminal velocity of approximately
+      <m><%= term_speed %></m> meters per second.
+    </p>
+    <p>
+      Write an initial value problem (IVP) modeling the velocity of this
+      water droplet when dropped from rest, assuming that the acceleration due
+      to gravity is roughly <m>9.8\hspace{1em}\mathrm{m}/\mathrm{s}^2</m>.
+      Then solve this IVP to compute the droplet's velocity after
+      <m><%= elapsed_time %></m> seconds. 
+    </p>
+  </statement>
+  <answer>
+    <p>
+      The IVP is given by
+      <me>v'+av=-g</me>
+      where <m>g=9.8</m> and <m>a\approx <%= coefficient %></m>.
+    </p>
+    <p>
+      The velocity after
+      <m><%= elapsed_time %></m> seconds
+      is approximately <m><%= elapsed_velocity %></m> meters per second. 
+    </p>
+  </answer>
+</exercise>
