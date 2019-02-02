@@ -1,0 +1,37 @@
+<exercise>
+  <title><%= _title %> (ver. <%= _seed %>)</title>
+  <statement>
+    <p>
+      A mass of <m><%= mass %></m> kg is attached
+      to a certain spring such that 
+      <m><%= initial_force_abs %></m> Newtons of force
+      is required to <%= stretch_compress %>
+      the mass <m><%= initial_displacement_abs %></m>
+      meters from its natural position.
+    </p>
+    <p>
+      Write an initial value problem (IVP) modeling the position of this
+      mass when released from rest.
+      Then solve this IVP to compute the mass's 
+      position after
+      <m><%= elapsed_time %></m> seconds. 
+    </p>
+  </statement>
+  <answer>
+    <p>
+      The IVP is given by
+      <me>
+        <%= mass %>x''+<%= spring_k %>x=0 
+        \hspace{3em} 
+        x(0)=<%= initial_displacement %>,
+        x'(0)=0
+      </me>
+    </p>
+    <p>
+      The position after
+      <m><%= elapsed_time %></m> seconds
+      is approximately <m><%= elapsed_position_abs %></m> meters
+      <%= outward_inward %>. 
+    </p>
+  </answer>
+</exercise>
