@@ -16,7 +16,7 @@ class F2(MastrExercise):
    
     return { 
       "ivp":
-        "xy'=" +
+        "ty'=" +
         latex(n) +
         "y \hspace{1em} y(" +
         latex(t0) +
