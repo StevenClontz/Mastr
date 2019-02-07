@@ -23,5 +23,5 @@ class F2(MastrExercise):
         ") = " +
         latex(y(t=t0)),
       "ivp_sol":
-        "y="+ latex(k) +"t^"+latex(n)
+        "y="+ latex(k) +"t^{"+latex(n)+"}"
     }
