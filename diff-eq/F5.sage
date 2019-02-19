@@ -7,17 +7,17 @@ class F5(MastrExercise):
     t = var("t")
     
     # pick n for y=kx^n
-    n = randrange(2,4)*choice([-1,1])
+    n = randrange(2,6)*choice([-1,1])
     # pick initial value
-    t0 = randrange(1,5)*choice([-1,1])
+    t0 = choice([-1,1])
     # pick coefficient
     k = randrange(1,5)*choice([-1,1])
     y = k*t^n
     # particular solution
-    kp = randrange(1,5)*choice([-1,1])
+    kp = randrange(1,6)*choice([-1,1])
     m = n
     while m==n:
-      m = randrange(2,4)*choice([-1,1])
+      m = randrange(1,5)*choice([-1,1])
     part_sol = choice([
       kp*t^m
     ]) 
@@ -32,6 +32,6 @@ class F5(MastrExercise):
         ") = " +
         latex(y(t=t0)+part_sol(t=t0)),
       "ivp_sol":
-        "y="+ latex(k) +"t^"+latex(n) + 
+        "y="+ latex(k) +"t^{"+latex(n) + "}" + 
         display_coeff(kp) + latex(part_sol/kp)
     }

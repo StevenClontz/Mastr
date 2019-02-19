@@ -1,0 +1,14 @@
+#!/bin/bash
+
+if [ "$1" != "" ]; then
+  echo "Building seeds.json"
+  sage mastr.sage $1
+  echo "Building templates"
+  ruby mastr.rb $1
+  echo "Building site"
+  (cd ../mastr-site; bundle exec nanoc)
+else
+  echo "Must provide path to standard"
+fi
+
+
