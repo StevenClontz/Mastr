@@ -1,0 +1,16 @@
+#!/bin/bash
+
+if [ "$1" != "" ]; then
+  echo "Local git"
+  git add -A
+  git commit -m "$1"
+  git push
+  echo "Build git"
+  (cd build; git add -A; git commit -m "$1"; git push)
+  echo "Site git"
+  (cd ../mastr-site; git add -A; git commit -m "$1"; bundle exec nanoc push)
+else
+  echo "Must provide commit message"
+fi
+
+
