@@ -1,0 +1,23 @@
+<exercise>
+  <title><%= _title %> (ver. <%= _seed %>)</title>
+  <statement>
+    <p>
+      Determine which of the following ODEs is exact.
+    </p>
+    <me><%= ode0 %></me>
+    <me><%= ode1 %></me>
+    <p>
+      Then find an implicit solution for the ODE
+      satisfying the initial value <m><%= iv %></m>.
+    </p>
+  </statement>
+  <answer>
+    <p>The following ODE is exact.</p>
+    <me><%= exact_ode %></me>
+    <p>
+      Its implicit solution satisfying 
+      <m><%= iv %></m> is:
+    </p>
+    <me><%= solution %></me>
+  </answer>
+</exercise>
