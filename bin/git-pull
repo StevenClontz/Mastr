@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo "Local git pull"
+git pull
+echo "Build git pull"
+(cd build; git pull)
+echo "Site git pull"
+(cd ../mastr-site; git pull)
+
+
