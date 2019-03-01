@@ -1,0 +1,34 @@
+<exercise>
+  <title><%= _title %> (ver. <%= _seed %>)</title>
+  <statement>
+    <p>
+      Consider a coupled mass-spring system where 
+      the inner mass is <m><%= m_1 %></m> kg, 
+      the outer mass is <m><%= m_2 %></m> kg,
+      the inner spring has constant <m><%= k_1 %></m> N/m,
+      the outer spring has constant <m><%= k_2 %></m> N/m.
+      The inner mass is moved <m><%= x_1_init %></m> meters <%= outin1 %> from its
+      natural position, while the outer mass is moved
+      <m><%= x_2_init %></m> meters <%= outin2 %> from its natural position. Both
+      masses are then simultaneously released from rest.
+    </p>
+    <p>
+      Give a system of IVPs that models this scenario,
+      then solve the system. Use your solution to find the
+      position of both masses after <m><%= elapsed_t %></m> seconds.
+    </p>
+  </statement>
+  <answer>
+    <p>The IVP system is given by:</p>
+    <me><%= ivp_1 %></me>
+    <me><%= ivp_2 %></me>
+    <p>This system solves to:</p>
+    <me><%= x_1 %></me>
+    <me><%= x_2 %></me>
+    <p>
+      Thus after <m><%= elapsed_t %></m> seconds, the inner mass is located approximately
+      <m><%= elapsed_x_1 %></m> meters from its natural position, and the outer
+      mass is located approximately <m><%= elapsed_x_2 %></m> meters from its natural position.
+    </p>
+  </answer>
+</exercise>
