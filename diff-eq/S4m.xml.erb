@@ -2,10 +2,13 @@
   <title><%= _title %> (ver. <%= _seed %>)</title>
   <statement>
     <p>
-      Consider a coupled mass-spring system where 
-      the inner mass is <m><%= m_1 %></m> kg, 
-      the outer mass is <m><%= m_2 %></m> kg,
+      Two species, <%= x_fish %> and <%= y_fish %>,
+      compete for the same resources. Suppose their
+      populations satisfy the following system of
+      ODEs:
     </p>
+    <me><%= dxdt %></me>
+    <me><%= dydt %></me>
   </statement>
   <answer>
   </answer>
