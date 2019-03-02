@@ -46,7 +46,7 @@ class S2m(MastrExercise):
     ivp_1 = latex(mmkkab[0])+"x_1''=-"+latex(mmkkab[2]+mmkkab[3])+\
       "x_1+"+latex(mmkkab[3])+"x_2\\hspace{2em}x_1(0)="+latex(x_1_init)+",x_1'(0)=0"
     ivp_2 = latex(mmkkab[1])+"x_2''="+latex(mmkkab[3])+\
-      "x_1+"+latex(mmkkab[3])+"x_2\\hspace{2em}x_2(0)="+latex(x_2_init)+",x_2'(0)=0"
+      "x_1-"+latex(mmkkab[3])+"x_2\\hspace{2em}x_2(0)="+latex(x_2_init)+",x_2'(0)=0"
     elapsed_t = randrange(2,6)
     elapsed_x_1 = x_1(t=elapsed_t)
     elapsed_x_2 = x_2(t=elapsed_t)
