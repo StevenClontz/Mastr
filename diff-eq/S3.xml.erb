@@ -12,4 +12,17 @@
     <me><%= dxdt %></me>
     <me><%= dydt %></me>
   </statement>
+  <answer>
+    <p>
+      The isoclines cross at <m><%= intersection %></m>, 
+      with <m>x'=0</m> having a <%= dxdt_slope %> slope
+      and <m>y'=0</m> having a <%= dydt_slope %> slope.
+    </p>
+    <p>
+      The right region has a <%= right_arrows %> arrow system,
+      the top region has a <%= top_arrows %> arrow system,
+      the left region has a <%= left_arrows %> arrow system, and
+      the bottom region has a <%= bottom_arrows %> arrow system.
+    </p>
+  </answer>
 </exercise>
