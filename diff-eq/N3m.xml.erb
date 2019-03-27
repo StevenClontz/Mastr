@@ -1,0 +1,18 @@
+<exercise>
+  <title><%= _title %> (ver. <%= _seed %>)</title>
+  <statement>
+    <p>
+      Use technology to implement Euler's method with <m>h=<%= h %></m> to approximate
+      <m>x(<%= t_n %>)</m> and <m>y(<%= t_n %>)</m> given the following
+      system of IVPs.
+    </p>
+    <me><%= xode %>\hspace{2em}<%= xiv %></me>
+    <me><%= yode %>\hspace{2em}<%= yiv %></me>
+  </statement>
+  <answer>
+    <p>
+      <m>x(<%= t_n %>)\approx <%= x_n %></m> and 
+      <m>y(<%= t_n %>)\approx <%= y_n %></m>.
+    </p>
+  </answer>
+</exercise>
