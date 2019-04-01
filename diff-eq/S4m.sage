@@ -36,7 +36,7 @@ class S4m(MastrExercise):
         y_init = scale*2+randrange(-2,3)
         if axis_equil=="inside":
           equils.append([scale*4,0])
-          equils.append([0,scale*5])
+          equils.append([0,scale*6])
         else:
           equils.append([scale*12,0])
           equils.append([0,scale*10])
