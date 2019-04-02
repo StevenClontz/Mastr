@@ -34,12 +34,17 @@ class N2(MastrExercise):
       x_0=randrange(-2,3)
       y_0=randrange(-2,3)
       h=choice([1/10,1/5])
-      t_n,x_n,y_n=t_0,x_0,y_0
+      vals=[[t_0,x_0,y_0]]
       for i in range(3):
-        t_n,x_n,y_n = t_n+h, \
-          x_n+h*xp(t=t_n,x=x_n,y=y_n), \
+        t_n=vals[i][0]
+        x_n=vals[i][1]
+        y_n=vals[i][2]
+        vals.append([
+          t_n+h, 
+          x_n+h*xp(t=t_n,x=x_n,y=y_n), 
           y_n+h*yp(t=t_n,x=x_n,y=y_n)
-      if x_n.abs() < 100 and x_n.abs() > 1/100 and y_n.abs() < 100 and y_n.abs() > 1/100:
+        ])
+      if vals[3][1].abs() < 100 and vals[3][1].abs() > 1/100 and vals[3][2].abs() < 100 and vals[3][2].abs() > 1/100:
         reroll=False
  
     return {
@@ -48,7 +53,13 @@ class N2(MastrExercise):
       "xiv": "x("+latex(t_0)+")="+latex(x_0),
       "yiv": "y("+latex(t_0)+")="+latex(y_0),
       "h": latex(h.n(digits=2)),
-      "t_n": latex(t_n.n(digits=2)),
-      "x_n": latex(x_n.n(digits=4)),
-      "y_n": latex(y_n.n(digits=4)),
+      "t_1": latex(vals[1][0].n(digits=2)),
+      "x_1": latex(vals[1][1].n(digits=4)),
+      "y_1": latex(vals[1][2].n(digits=4)),
+      "t_2": latex(vals[2][0].n(digits=2)),
+      "x_2": latex(vals[2][1].n(digits=4)),
+      "y_2": latex(vals[2][2].n(digits=4)),
+      "t_3": latex(vals[3][0].n(digits=2)),
+      "x_3": latex(vals[3][1].n(digits=4)),
+      "y_3": latex(vals[3][2].n(digits=4)),
     }
