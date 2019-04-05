@@ -1,0 +1,28 @@
+<exercise>
+  <title><%= _title %> (ver. <%= _seed %>)</title>
+  <statement>
+    <p>
+      A rocket weighing <m><%= m %></m> kg is traveling at a
+      constant <m><%= v_0 %></m> meters per second. 
+      Then when <m>t=<%= t_s %></m>, its thrusters are turned on,
+      providing <m><%= f %></m> Newtons of force until they are
+      switched off <m><%= t_b %></m> seconds later.
+    </p>
+    <p>
+      Give an IVP that models this scenario,
+      then solve it. Use your solution to find the
+      velocity of the rocket when <m>t=<%= t_q %></m>.
+    </p>
+  </statement>
+  <answer>
+    <p>An IVP modeling this scenario is given by:</p>
+    <me><%= ode %>\hspace{2em}<%= iv %></me>
+    <p>This IVP solves to:</p>
+    <me><%= sol %></me>
+    <p>
+      It follows that when <m>t=<%= t_q %></m>,
+      the velocity of the rocket is <m><%= v_q %></m>
+      meters per second.
+    </p>
+  </answer>
+</exercise>
