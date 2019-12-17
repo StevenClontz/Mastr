@@ -25,6 +25,7 @@ class V2(MastrExercise):
 		A=column_matrix([vec1, vec2, vec3, vec4])
 		while rank(A)<4:
 			vec4 = vector([ randrange(-10,10), randrange(-10,10), randrange(-10,10), randrange(-10,10)])
+			A=column_matrix([vec1, vec2, vec3, vec4])
 	
 	latex.matrix_delimiters("[", "]")	
 	return {
