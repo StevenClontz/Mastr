@@ -29,12 +29,9 @@ seeds["seeds"].each do |seed|
   seed["_title"]=seeds["title"]
   # build xml.erb template
   xml_filename = build_path+'/'+seed["_seed"].to_s.rjust(3, "0")+".xml"
-  puts seed
   xml_str = 
     template.result_with_hash(seed)
-  puts xml_str
   xml_str.gsub! '&', '&amp;'
-  puts xml_str
   File.write(
     xml_filename, xml_str 
   )
