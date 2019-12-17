@@ -70,7 +70,7 @@ seeds["seeds"].each do |seed|
   # convert to LaTeX snippet 
   latex_doc = Nokogiri::XML(xml_str)
   latex_doc.css("p").each do |tag|
-    tag.replace "\n"+tag.inner_html+"\n"
+    tag.replace tag.inner_html+"\n\n"
   end
   latex_doc.css("m").each do |tag|
     tag.replace '\('+tag.inner_html+'\)'
