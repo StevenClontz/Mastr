@@ -6,6 +6,15 @@ if len(sys.argv)<2:
 exercise_path = sys.argv[1]
 exercise_name = exercise_path.split("/")[-1]
 
+if len(sys.argv)==3:
+  build_path = sys.argv[2]
+  if build_path[-1] != '/':
+    build_path = build_path + '/'
+  build_path = build_path+exercise_name
+else:
+  build_path = 'build/'+exercise_path
+print('building to'+build_path)
+
 def display_coeff(x):
   if x==1:
     return "+"
@@ -43,11 +52,11 @@ for seed_int in seed_ints:
 # Create directory based on path if necessary
 # https://stackoverflow.com/a/14364249
 try: 
-  os.makedirs('build/'+exercise_path)
+  os.makedirs(build_path)
 except OSError:
-  if not os.path.isdir('build/'+exercise_path):
+  if not os.path.isdir(build_path):
     raise
 
 # Create file
-with open('build/'+exercise_path+'/seeds.json', 'w') as outfile:
+with open(build_path+'/seeds.json', 'w') as outfile:
   outfile.write(json.dumps(seeds))

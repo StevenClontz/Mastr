@@ -6,7 +6,17 @@ if ARGV[0].nil?
   raise ArgumentError.new("must provide an exercise path")
 else
   exercise_path = ARGV[0]
+  exercise_name = exercise_path.split("/")[-1]
+end
+
+if ARGV[1].nil?
   build_path = "build/"+exercise_path
+else
+  build_path = ARGV[1]
+  unless build_path[-1] == '/'
+    build_path = build_path + '/'
+  end
+  build_path = build_path+exercise_name
 end
 
 template = ERB.new(File.read(exercise_path+".xml.erb"))
