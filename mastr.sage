@@ -15,6 +15,11 @@ else:
   build_path = 'build/'+exercise_path
 print('building to'+build_path)
 
+if len(sys.argv)==4 and sys.argv[3]=="random":
+  fix_seeds = False
+else:
+  fix_seeds = True
+
 def display_coeff(x):
   if x==1:
     return "+"
@@ -38,7 +43,7 @@ class MastrExercise:
 load(exercise_path+".sage")
 Exercise = eval(exercise_name)
 
-seed_ints = xrange(1,101)
+seed_ints = xrange(0,1000)
 
 seeds = {
   "title": Exercise.title(),
@@ -46,7 +51,8 @@ seeds = {
 }
 
 for seed_int in seed_ints:
-  set_random_seed(seed_int)
+  if fix_seeds:
+    set_random_seed(seed_int)
   seeds["seeds"].append(Exercise(seed_int).export)
 
 # Create directory based on path if necessary
