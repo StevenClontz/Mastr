@@ -75,6 +75,14 @@ seeds["seeds"].each do |seed|
   latex_doc.css("me").each do |tag|
     tag.replace "\n\\["+tag.inner_html+"\\]\n"
   end
+  #Handle md for multiline math
+  latex_doc.css("md").each do |tag|
+  	tag.replace "\n\\begin{align*}\n" + tag.inner_html+"\\end{align*}\n"
+  end
+  #Handle mrow for multiline math
+  latex_doc.css("mrow").each do |tag|
+  	tag.replace tag.inner_html+"\\\\ \n"
+  end
   %w(Statement Answer Title Solution).each do |tag_name|
     latex_doc.css(tag_name.downcase).each do |tag|
       tag.replace "\\begin{exercise#{tag_name}}"+
