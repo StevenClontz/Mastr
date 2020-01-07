@@ -13,7 +13,6 @@ if len(sys.argv)==3:
   build_path = build_path+exercise_name
 else:
   build_path = 'build/'+exercise_path
-print('building to'+build_path)
 
 if len(sys.argv)==4 and sys.argv[3]=="random":
   fix_seeds = False
