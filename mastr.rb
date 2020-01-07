@@ -60,6 +60,14 @@ seeds["seeds"].each do |seed|
     tag['class']="m"
     tag.content = '\('+tag.content+'\)'
   end
+  #Handle md for multiline math
+  html_doc.css("md").each do |tag|
+  	tag.replace "\n\\begin{align*}\n" + tag.inner_html+"\\end{align*}\n"
+  end
+  #Handle mrow for multiline math
+  html_doc.css("mrow").each do |tag|
+  	tag.replace tag.inner_html+"\\\\ \n"
+  end
   html_filename = build_path+'/'+seed["_seed"].to_s.rjust(3, "0")+".html"
   File.write(
     html_filename, html_doc.root.to_s
