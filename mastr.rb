@@ -75,7 +75,7 @@ seeds["seeds"].each do |seed|
   # convert to LaTeX snippet 
   latex_doc = Nokogiri::XML(xml_str)
   latex_doc.css("p").each do |tag|
-    tag.replace tag.inner_html+"\n\n"
+    tag.replace tag.inner_html.gsub(/\s+/," ")+"\n\n"
   end
   latex_doc.css("m").each do |tag|
     tag.replace '\('+tag.inner_html+'\)'
@@ -93,15 +93,15 @@ seeds["seeds"].each do |seed|
   end
   %w(Statement Answer Title Solution).each do |tag_name|
     latex_doc.css(tag_name.downcase).each do |tag|
-      tag.replace "\\begin{exercise#{tag_name}}"+
-        tag.inner_html+
-        "\\end{exercise#{tag_name}}"
+      tag.replace "\\begin{exercise#{tag_name}}\n"+
+        tag.inner_html.gsub(/\s+/," ")+
+        "\n\\end{exercise#{tag_name}}\n"
     end
   end
   latex_doc.at_css("exercise").content =
-    '\begin{exercise}'+
-    latex_doc.at_css("exercise").content+
-    '\end{exercise}'
+    "\\begin{exercise}\n"+
+    latex_doc.at_css("exercise").content +
+    "\n\\end{exercise}\n"
   latex_filename = build_path+'/'+seed["_seed"].to_s.rjust(3, "0")+".tex"
   File.write(
     latex_filename, latex_doc.at_css("exercise").text
