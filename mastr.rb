@@ -74,6 +74,13 @@ seeds["seeds"].each do |seed|
   )
   # convert to LaTeX snippet 
   latex_doc = Nokogiri::XML(xml_str)
+  %w(Statement Answer Title Solution).each do |tag_name|
+    latex_doc.css(tag_name.downcase).each do |tag|
+      tag.replace "\\begin{exercise#{tag_name}}\n"+
+        tag.inner_html.gsub(/\s+/," ")+
+        "\n\\end{exercise#{tag_name}}\n"
+    end
+  end
   latex_doc.css("p").each do |tag|
     tag.replace tag.inner_html.gsub(/\s+/," ")+"\n\n"
   end
@@ -90,13 +97,6 @@ seeds["seeds"].each do |seed|
   #Handle mrow for multiline math
   latex_doc.css("mrow").each do |tag|
   	tag.replace tag.inner_html+"\\\\ \n"
-  end
-  %w(Statement Answer Title Solution).each do |tag_name|
-    latex_doc.css(tag_name.downcase).each do |tag|
-      tag.replace "\\begin{exercise#{tag_name}}\n"+
-        tag.inner_html.gsub(/\s+/," ")+
-        "\n\\end{exercise#{tag_name}}\n"
-    end
   end
   latex_doc.at_css("exercise").content =
     "\\begin{exercise}\n"+
