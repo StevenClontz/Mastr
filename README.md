@@ -3,6 +3,22 @@
 Scripts for easily writing randomized math exercises
 for use in practice and assessment.
 
+## Authoring randomized exercises
+
+(To be implemented:)
+
+Exercises authored using the Mastr platform require two things:
+a controller and a template.
+
+- The **controller** is a
+  script written in [SageMath](https://www.sagemath.org/)
+  that generates the random elements of the exercise and
+  exports these elements as [JSON](https://www.json.org/json-en.html).
+- The **template** is a [PreTeXt `<exercise/>`](https://pretextbook.org)
+  that uses the [Mustache engine](https://mustache.github.io/)
+  to inject the randomized elements into the exercise from the exported JSON.
+
+
 ## mastr.sage
 
 ```
